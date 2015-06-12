@@ -22,6 +22,7 @@ public class ActivityMain extends ActionBarActivity implements RecyclerAdapter.C
 
     private RecyclerAdapter recyclerAdapter;
 
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
