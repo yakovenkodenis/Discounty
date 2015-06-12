@@ -93,6 +93,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
     }
 
     public interface ClickListener {
-        public void itemClicked(View view, int position);
+        void itemClicked(View view, int position);
     }
 }

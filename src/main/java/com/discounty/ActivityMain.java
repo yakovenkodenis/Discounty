@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.discounty.discounty.Information;
+import com.discounty.discounty.MainListViewActivity;
 import com.discounty.discounty.RecyclerAdapter;
 import com.getbase.floatingactionbutton.AddFloatingActionButton;
 
@@ -103,6 +104,7 @@ public class ActivityMain extends ActionBarActivity implements RecyclerAdapter.C
 //                        })
 //                        .show();
                 Crouton.makeText(ActivityMain.this, "You've just pressed the floating button:)", Style.INFO).show();
+                startActivity(new Intent(getApplicationContext(), MainListViewActivity.class));
             }
         });
     }

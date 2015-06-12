@@ -39,16 +39,16 @@
         style="?attr/actionButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="center_vertical"
+            android:layout_gravity="center_vertical"
         android:focusable="true"
         android:contentDescription="@string/abc_searchview_description_search" />
 
     <LinearLayout
         android:id="@+id/search_edit_frame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
         android:layout_marginTop="4dip"
         android:layout_marginBottom="4dip"
         android:layout_marginLeft="8dip"
@@ -68,10 +68,10 @@
         <!-- Inner layout contains the app icon, button(s) and EditText -->
         <LinearLayout
             android:id="@+id/search_plate"
-            android:layout_width="wrap_content"
+                android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_gravity="center_vertical"
+                android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
             <view

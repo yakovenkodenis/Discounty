@@ -51,6 +51,8 @@
 
         <activity android:name=".MainActivity" />
 
+        <activity android:name=".discounty.MainListViewActivity" />
+
 
         <activity
             android:name="com.google.zxing.client.android.CaptureActivity"

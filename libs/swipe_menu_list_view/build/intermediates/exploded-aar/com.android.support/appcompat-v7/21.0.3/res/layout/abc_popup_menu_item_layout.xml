@@ -25,9 +25,9 @@
     <RelativeLayout
         android:layout_width="0dip"
         android:layout_weight="1"
-        android:layout_height="wrap_content"
+            android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:duplicateParentState="true"
+            android:duplicateParentState="true"
         style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
 
         <TextView
